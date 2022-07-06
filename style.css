@@ -30,3 +30,7 @@
        background-image: linear-gradient(yellow, green);
        padding: 10px, 40px;
    }
+
+   #today {
+       color: black;
+   }

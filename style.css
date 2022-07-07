@@ -1,5 +1,5 @@
    body {
-       margin: 3%;
+       margin: 5%;
    }
 
    section {
@@ -14,7 +14,7 @@
 
    p {
        font-size: 30px;
-       color: aliceblue
+       color: white;
    }
 
    #show-bg {
@@ -29,16 +29,19 @@
 
    }
 
-   h6 {
 
+   h6 {
+       text-align: center;
        margin: 5px;
        padding: 20px;
        font-size: 60px;
    }
 
-   #sir {
+   .flex {
+
        text-align: center;
    }
+
 
    .link-button {
        text-decoration: none;
@@ -49,14 +52,10 @@
 
    }
 
-   .flex {
-       display: flex;
-       justify-content: center;
-   }
 
    #today {
        color: black;
-       text-align: center;
+       display: flex;
        margin: 5%;
    }
 
@@ -125,4 +124,69 @@
    #deploy {
        color: black;
        text-align: center;
+   }
+
+   .seelet {
+       margin-top: 70px;
+       padding: 50px;
+   }
+
+   .banner-coniter {
+       display: flex;
+       text-align: center;
+       margin: 4px;
+   }
+
+   .card {
+       width: 400px;
+       height: 350px;
+       border: 1px solid gray;
+       text-align: center;
+       box-shadow: 8px 8px 16px gray;
+       padding: 20px;
+       border-radius: 10px;
+       background-color: rgb(111, 199, 202);
+
+   }
+
+   .family {
+       color: black;
+   }
+
+   .source {
+       display: flex;
+   }
+
+   .fream {
+       margin: 70px;
+       padding: 50px;
+   }
+
+   .style {
+       width: 400px;
+       height: 350px;
+       border: 10px;
+       text-align: center;
+       box-shadow: 8px 8px 16px gray;
+       padding: 20px;
+       border-radius: 10px;
+       background-color: cornflowerblue;
+       display: flex;
+   }
+
+   .baby {
+       margin: 70px;
+       padding: 50px;
+   }
+
+   .web {
+       width: 400px;
+       height: 350px;
+       border: 10px;
+       text-align: center;
+       box-shadow: 8px 8px 16px gray;
+       padding: 20px;
+       border-radius: 10px;
+       background-color: cornflowerblue;
+       display: flex;
    }

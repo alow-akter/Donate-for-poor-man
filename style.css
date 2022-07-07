@@ -1,5 +1,6 @@
    body {
        margin: 5%;
+
    }
 
    section {
@@ -175,7 +176,7 @@
    }
 
    .baby {
-       margin: 70px;
+       margin: 50px;
        padding: 50px;
    }
 
@@ -186,7 +187,7 @@
        text-align: center;
        box-shadow: 8px 8px 16px gray;
        padding: 20px;
-       border-radius: 10px;
-       background-color: cornflowerblue;
+       border-radius: 20px;
+       background-color: darkcyan;
        display: flex;
    }
